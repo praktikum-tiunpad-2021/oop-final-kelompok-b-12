@@ -9,10 +9,14 @@
 | 140810xx00xx  | Lorem Ipsum |
 
 ## Sprint Backlog Keseluruhan 
-| ID  | Title/Desc | Asignee | 
-| --- | ---------- | ------- | 
-| 1.1 | Preparing the x | Jane Doe | 
-| 2.2 | Make the x | John Doe | 
+| ID  |                   Title/Desc                 |      Asignee       | 
+| --- | -------------------------------------------- | ------------------ | 
+| 1.1 | Implementasi Logika Tic Tac Toe              | Andre, Anna        | 
+| 2.2 | Implementasi Layout (GUI)                    | Laura              |
+| 2.3 | Voice actress                                | Laura, Andre, Anna |
+| 2.4 | Integrasi Logika Tic Tac Toe ke dalam Layout | Laura, Andre       |
+| 2.5 | Testing                                      | Anna               |
+| 2.6 | Finishing Project                            | Anna, Laura, Andre |
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
