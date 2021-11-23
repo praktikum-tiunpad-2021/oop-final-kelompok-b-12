@@ -4,7 +4,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 [Challenge Guidelines](challenge-guideline.md)
 
-**Please create a description for this project here**
+**Permainan Tic Tac Toe sederhana yang dibuat menggunakan cinta sepenuh hati dari masing-masing anggota. Menggunakan bahasa java yang baik dan benar dan styling dengan Java GUI (semoga bisa). Dibutuhkan 2 pemain dalam game sebagai X dan O, diusahakan dapat meng-input nama pemain, dan ada sfx setiap kotak tic tac toe di-klik(ide tambahan/optional/semoga bisa). Peraturan standar : 3 kotak sebaris (horizontal/vertikal/diagonal) terisi sama == menang. Jika tidak ada yang membentuk 3 kotak sebaris maka hasinlnya draw**
 
 ## Credits
 | NPM           | Name                    |
