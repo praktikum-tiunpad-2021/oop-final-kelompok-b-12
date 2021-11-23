@@ -13,7 +13,7 @@
 | --- | -------------------------------------------- | ------------------ | 
 | 1.1 | Implementasi Logika Tic Tac Toe              | Andre, Anna        | 
 | 2.2 | Implementasi Layout (GUI)                    | Laura              |
-| 2.3 | Voice actress                                | Laura, Andre, Anna |
+| 2.3 | Voice actor/actress                               | Laura, Andre, Anna |
 | 2.4 | Integrasi Logika Tic Tac Toe ke dalam Layout | Laura, Andre       |
 | 2.5 | Testing                                      | Anna               |
 | 2.6 | Finishing Project                            | Anna, Laura, Andre |
