@@ -7,11 +7,11 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 **Please create a description for this project here**
 
 ## Credits
-| NPM           | Name                  |
-| ------------- |---------------------  |
-| 140810200034  | Anna Safira Dila      |
-| 140810200036  | Laura Azra Aprilyanti |
-| 140810200042  | Andre Nathaniel A     |
+| NPM           | Name                    |
+| ------------- |-------------------------|
+| 140810200034  | Anna Safira Dila        |
+| 140810200036  | Laura Azra Aprilyanti   |
+| 140810200042  | Andre Nathaniel Adipraja|
 
 ## Change log
 - **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
