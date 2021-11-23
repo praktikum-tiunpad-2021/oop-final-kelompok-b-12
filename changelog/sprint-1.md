@@ -4,9 +4,9 @@
 ## Team (Insert your name)
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810200034  | Anna Safira Dila    |
+| 140810200036  | Laura Azra Aprilyanti    |
+| 140810200042  | Andre Nathaniel Adipraja |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
@@ -17,15 +17,15 @@
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.1 | Preparing the x | Jane Doe | DONE |
-| 1.2 | Make the x | John Doe | FAILED |
+| 1.1 | Merancang Logika Tic Tac Toe CUI | Andre, Anna | DONE|
+| 2.2 | Merancang Blueprint Layout Game  | Laura | UNDONE|
 
 ## Retrospective 
 
 Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
 
-## Next Sprint Backlog (Sprint 2)
+## Next Sprint Backlog (Sprint 2) bisa berubah sewaktu-waktu
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 2.1 | Preparing the x | Jane Doe | 
-| 2.2 | Make the x | John Doe | 
+| 2.1 | Implementasi Logika Tic Tac Toe | Andre, Anna | 
+| 2.2 | Implementasi Layout | Laura | 
