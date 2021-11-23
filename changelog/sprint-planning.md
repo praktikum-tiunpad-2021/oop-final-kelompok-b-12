@@ -5,7 +5,7 @@
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810200034  | Anna Safira Dila    |
-| 140810200036  | Laura Azra Aprilyanti    |
+| 140810200036  | Laura Azra Aprilyanti    | 
 | 140810200042  | Andre Nathaniel Adipraja |
 
 ## Sprint Backlog Keseluruhan 
