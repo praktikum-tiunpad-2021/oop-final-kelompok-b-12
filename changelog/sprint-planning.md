@@ -1,12 +1,12 @@
 # Sprint Planning 
-| dd/mm/yyyy
+| 23/11/2021
 
 ### Team (Insert your name)
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810200034  | Anna Safira Dila    |
+| 140810200036  | Laura Azra Aprilyanti    |
+| 140810200042  | Andre Nathaniel Adipraja |
 
 ## Sprint Backlog Keseluruhan 
 | ID  |                   Title/Desc                 |      Asignee       | 
@@ -21,8 +21,8 @@
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 1.1 | Preparing the x | Jane Doe | 
-| 2.2 | Make the x | John Doe | 
+| 1.1 | Merancang Logika Tic Tac Toe CUI | Andre, Anna | 
+| 2.2 | Merancang Blueprint Layout Game  | Laura | 
 
 ## Retrospective 
 
