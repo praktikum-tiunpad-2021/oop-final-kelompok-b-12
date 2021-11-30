@@ -4,7 +4,7 @@
 package oopfinalkelompokb;
 
 import javafx.application.Application;
-import javafx.scene.Group;
+import javafx.scene.Group; 
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
@@ -27,7 +27,6 @@ public class App extends Application {
                 Rectangle rec = new Rectangle((j * unit) + margin, (i * unit) + margin, unit, unit);
                 rec.setFill(Color.WHEAT);
                 rec.setStroke(Color.GRAY);
-                // rec.setOnMouseClicked(mouseEvent -> System.out.println("(" + i + ", " + j + ")"));
                 root.getChildren().add(rec);
             }
         }

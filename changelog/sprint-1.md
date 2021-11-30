@@ -4,7 +4,7 @@
 ## Team (Insert your name)
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810200034  | Anna Safira Dila    |
+| 140810200034  | Anna Safira Dila    | 
 | 140810200036  | Laura Azra Aprilyanti    |
 | 140810200042  | Andre Nathaniel Adipraja |
 
@@ -18,7 +18,7 @@
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
 | 1.1 | Merancang Logika Tic Tac Toe CUI | Andre, Anna | DONE|
-| 2.2 | Merancang Blueprint Layout Game  | Laura | UNDONE|
+| 2.2 | Merancang Blueprint Layout Game  | Laura | UNDONE |
 
 ## Retrospective 
 
