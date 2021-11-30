@@ -100,6 +100,7 @@ public class TicTacToeGUI extends JFrame{
             currentPlayer = "o";
         else
             currentPlayer = "x";
+        
     }
 
     private void hasWinner() {
