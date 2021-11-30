@@ -17,8 +17,8 @@
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 3.1 | Preparing the x | Jane Doe | DONE |
-| 3.2 | Make the x | John Doe | FAILED |
+| 3.1 | Testing                                      | Anna               | FAILED |
+| 3.2 | Finishing Project                            | Anna, Laura, Andre | FAILED |
 
 ## Retrospective 
 

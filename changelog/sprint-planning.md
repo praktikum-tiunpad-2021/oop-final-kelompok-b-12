@@ -12,17 +12,17 @@
 | ID  |                   Title/Desc                 |      Asignee       | 
 | --- | -------------------------------------------- | ------------------ | 
 | 1.1 | Implementasi Logika Tic Tac Toe              | Andre, Anna        | 
-| 2.2 | Implementasi Layout (GUI)                    | Laura              |
-| 2.3 | Voice actor/actress                          | Laura, Andre, Anna |
-| 2.4 | Integrasi Logika Tic Tac Toe ke dalam Layout | Laura, Andre       |
-| 2.5 | Testing                                      | Anna               |
-| 2.6 | Finishing Project                            | Anna, Laura, Andre |
+| 1.2 | Implementasi Layout (GUI)                    | Laura              |
+| 2.1 | Voice actor/actress                          | Laura, Andre, Anna |
+| 2.2 | Integrasi Logika Tic Tac Toe ke dalam Layout | Laura, Andre       |
+| 3.1 | Testing                                      | Anna               |
+| 3.2 | Finishing Project                            | Anna, Laura, Andre |
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
 | 1.1 | Merancang Logika Tic Tac Toe CUI | Andre, Anna | 
-| 2.2 | Merancang Blueprint Layout Game  | Laura | 
+| 1.2 | Merancang Blueprint Layout Game  | Laura | 
 
 ## Retrospective 
 

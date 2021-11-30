@@ -1,5 +1,5 @@
 # Scrum Report (Sprint 1)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 16/11/2021 to 23/11/2021
 
 ## Team (Insert your name)
 | NPM           | Name        |
@@ -11,14 +11,14 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 2             | 2             |
 
 ## Sprint 1 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
 | 1.1 | Merancang Logika Tic Tac Toe CUI | Andre, Anna | DONE|
-| 2.2 | Merancang Blueprint Layout Game  | Laura | UNDONE |
+| 2.2 | Merancang Blueprint Layout Game  | Laura | DONE |
 
 ## Retrospective 
 
