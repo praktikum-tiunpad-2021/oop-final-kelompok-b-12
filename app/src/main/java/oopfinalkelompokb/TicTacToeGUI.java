@@ -142,5 +142,10 @@ public class TicTacToeGUI extends JFrame{
             JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
             hasWinner = true;
         }
+
+        else if(board[0][0].getText().equals(currentPlayer) && board[1][1].getText().equals(currentPlayer) && board[2][0].getText().equals(currentPlayer)) {
+            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            hasWinner = true;
+        }
     }
 }
