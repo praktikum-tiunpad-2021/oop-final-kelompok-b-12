@@ -1,5 +1,3 @@
-package oopfinalkelompokb;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
@@ -100,6 +98,7 @@ public class TicTacToeGUI extends JFrame{
             currentPlayer = "o";
         else
             currentPlayer = "x";
+        
     }
 
     private void hasWinner() {
