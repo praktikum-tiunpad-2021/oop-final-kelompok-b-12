@@ -1,3 +1,5 @@
+package oopfinalkelompokb;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
@@ -112,6 +114,31 @@ public class TicTacToeGUI extends JFrame{
         }
 
         else if(board[0][2].getText().equals(currentPlayer) && board[1][2].getText().equals(currentPlayer) && board[2][2].getText().equals(currentPlayer)) {
+            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            hasWinner = true;
+        }
+
+        else if(board[0][0].getText().equals(currentPlayer) && board[0][1].getText().equals(currentPlayer) && board[0][2].getText().equals(currentPlayer)) {
+            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            hasWinner = true;
+        }
+
+        else if(board[1][0].getText().equals(currentPlayer) && board[1][1].getText().equals(currentPlayer) && board[1][2].getText().equals(currentPlayer)) {
+            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            hasWinner = true;
+        }
+
+        else if(board[2][0].getText().equals(currentPlayer) && board[2][1].getText().equals(currentPlayer) && board[2][2].getText().equals(currentPlayer)) {
+            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            hasWinner = true;
+        }
+
+        else if(board[0][0].getText().equals(currentPlayer) && board[1][1].getText().equals(currentPlayer) && board[2][2].getText().equals(currentPlayer)) {
+            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            hasWinner = true;
+        }
+
+        else if(board[0][2].getText().equals(currentPlayer) && board[1][1].getText().equals(currentPlayer) && board[2][0].getText().equals(currentPlayer)) {
             JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
             hasWinner = true;
         }
