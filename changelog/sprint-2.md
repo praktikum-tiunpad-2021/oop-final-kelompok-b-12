@@ -11,7 +11,8 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| Implementasi Logika Tic Tac Toe             | DONE             |
+| Implementasi Layout             | DONE             |
 
 ## Sprint 2 Backlog
 
