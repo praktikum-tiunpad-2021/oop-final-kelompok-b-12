@@ -46,6 +46,7 @@ Tata cara menjalankan aplikasi
 TicTacToeGUI2.java
 
 UML image here
+![this is an image](/UML-TicTacToeGUI.jpg)
 
 ## Notable Assumption and Design App Details
 
