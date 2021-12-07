@@ -6,12 +6,12 @@
 | ------------- |-------------|
 | 140810200034  | Anna Safira Dila    | 
 | 140810200036  | Laura Azra Aprilyanti    |
-| 140810200042  | Andre Nathaniel Adipraja |
+| 140810200042  | Andre Nathaniel Adipraja | 
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 2| 2            |
+| 2             | 2             |
 
 ## Sprint 2 Backlog
 
@@ -22,10 +22,10 @@
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Sprint kemarin dikerjakan terlalu dekat dengan batas waktu sprint 2 sehingga diperlukan adanya penyesuaian waktu kerja kelompok.
 
 ## Next Sprint Backlog (Sprint 3)
-| ID  | Title/Desc | Asignee | 
-| --- | ---------- | ------- | 
-| 3.1 | Testing                                      | Anna               |
-| 3.2 | Finishing Project                            | Anna, Laura, Andre |
+| ID  | Title/Desc           | Asignee            | 
+| --- | -------------------- | ------------------ | 
+| 3.1 | Testing              | Anna               |
+| 3.2 | Finishing Project    | Anna, Laura, Andre |

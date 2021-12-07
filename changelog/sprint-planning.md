@@ -8,7 +8,7 @@
 | 140810200036  | Laura Azra Aprilyanti    |  
 | 140810200042  | Andre Nathaniel Adipraja |
 
-## Sprint Backlog Keseluruhan 
+## Sprint Backlog Keseluruhan  
 | ID  |                   Title/Desc                 |      Asignee       | 
 | --- | -------------------------------------------- | ------------------ | 
 | 1.1 | Implementasi Logika Tic Tac Toe              | Andre, Anna        | 
@@ -23,6 +23,18 @@
 | --- | ---------- | ------- | 
 | 1.1 | Merancang Logika Tic Tac Toe CUI | Andre, Anna | 
 | 1.2 | Merancang Blueprint Layout Game  | Laura | 
+
+## Sprint Backlog Plan (Sprint 2)
+| ID  | Title/Desc | Asignee | 
+| --- | ---------- | ------- | 
+| 2.1 | Implementasi Logika Tic Tac Toe | Andre, Anna | 
+| 2.2 | Implementasi Layout | Laura |
+
+## Sprint Backlog Plan (Sprint 3)
+| ID  | Title/Desc | Asignee | 
+| --- | ---------- | ------- | 
+| 3.1 | Testing    | Anna    | 
+| 3.2 | Finishing Project    | Anna, Laura, Andre |
 
 ## Retrospective 
 

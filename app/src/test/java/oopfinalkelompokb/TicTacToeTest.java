@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 public class TicTacToeTest {
     @Test public void TicTacToe() {
-        TicTacToeApp TicTacTest = new TicTacToeApp();
+        TicTacToeGUI TicTacTest = new TicTacToeGUI();
         assertNotNull(TicTacTest);
     }
 }

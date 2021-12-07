@@ -2,7 +2,8 @@ package oopfinalkelompokb;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JMenu;
+//import javax.swing.JLabel;
+//import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
@@ -13,15 +14,16 @@ import java.awt.Container;
 import java.awt.GridLayout;
 import java.awt.*;
 
-public class TicTacToeGUI extends JFrame{
+public class TicTacToeGUI extends JFrame {
     private Container pane;
     private String currentPlayer;
     private JButton [][] board;
     private boolean hasWinner;
     private JMenuBar menuBar;
-    private JMenu menu;
+    // private JMenu menu;
     private JMenuItem quit;
     private JMenuItem newGame;
+    //private JLabel turn;
 
     public TicTacToeGUI() {
         super();
@@ -37,11 +39,12 @@ public class TicTacToeGUI extends JFrame{
         hasWinner = false;
         initializeBoard();
         initializeMenuBar();
+        // initializeTurnBar();
     }
 
     private void initializeMenuBar() {
         menuBar = new JMenuBar();
-        menu = new JMenu("File");
+        // menu = new JMenu("File");
 
         newGame = new JMenuItem("New Game");
         newGame.addActionListener(new ActionListener() {
@@ -57,10 +60,13 @@ public class TicTacToeGUI extends JFrame{
                 System.exit(0);
             }
         });
-
-        menu.add(newGame);
-        menu.add(quit);
-        menuBar.add(menu);
+        
+        menuBar.add(newGame);
+        menuBar.add(quit);
+        
+        menuBar.setBackground(new java.awt.Color(204, 255, 204));
+        
+        // menuBar.add(menu);
         setJMenuBar(menuBar);
     }
 
@@ -79,12 +85,16 @@ public class TicTacToeGUI extends JFrame{
             for(int j = 0; j < 3; j++) {
                 JButton btn = new JButton();
                 btn.setFont(new Font(Font.SANS_SERIF, Font.BOLD,100));
+                btn.setForeground(new java.awt.Color(51, 51, 51));
+                btn.setBackground(new java.awt.Color(255, 248, 220));
                 board[i][j] = btn;
                 btn.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
                         if (((JButton)e.getSource()).getText().equals("") && hasWinner == false) {
                             btn.setText(currentPlayer);
+                            
+                            btn.setOpaque(true);
                             hasWinner();
                             togglePlayer();
                         }
@@ -100,53 +110,190 @@ public class TicTacToeGUI extends JFrame{
             currentPlayer = "o";
         else
             currentPlayer = "x";
-        
     }
 
     private void hasWinner() {
+        if (currentPlayer.equals("x")) {
+            JOptionPane.showMessageDialog(null, "o's turn");
+        } else {
+            JOptionPane.showMessageDialog(null, "x's turn");
+        }
+       
         if(board[0][0].getText().equals(currentPlayer) && board[1][0].getText().equals(currentPlayer) && board[2][0].getText().equals(currentPlayer)) {
-            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            board[0][0].setBackground(new java.awt.Color(204, 255, 204));
+            board[1][0].setBackground(new java.awt.Color(204, 255, 204));
+            board[2][0].setBackground(new java.awt.Color(204, 255, 204));
+            
+            int jawab = JOptionPane.showOptionDialog(null, "Player " + currentPlayer + " has won! \nPlay again?", "Are u sure?",JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
             hasWinner = true;
+
+            
+            if (jawab == JOptionPane.YES_OPTION) {
+                JOptionPane.showMessageDialog(null, "Game restarted \n" + currentPlayer + "Turn!");
+                resetBoard();
+                board[0][0].setBackground(new java.awt.Color(255, 248, 220));
+                board[1][0].setBackground(new java.awt.Color(255, 248, 220));
+                board[2][0].setBackground(new java.awt.Color(255, 248, 220));
+            } else {
+                System.exit(0);
+            }
         }
 
         else if(board[0][1].getText().equals(currentPlayer) && board[1][1].getText().equals(currentPlayer) && board[2][1].getText().equals(currentPlayer)) {
-            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            board[0][1].setBackground(new java.awt.Color(204, 255, 204));
+            board[1][1].setBackground(new java.awt.Color(204, 255, 204));
+            board[2][1].setBackground(new java.awt.Color(204, 255, 204));
+
+            int jawab = JOptionPane.showOptionDialog(null, "Player " + currentPlayer + " has won! \nPlay again?", "Are u sure?",JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
             hasWinner = true;
+
+            
+            if (jawab == JOptionPane.YES_OPTION) {
+                JOptionPane.showMessageDialog(null, "Game restarted \n" + currentPlayer + "Turn!");
+                resetBoard();
+
+                board[0][1].setBackground(new java.awt.Color(255, 248, 220));
+                board[1][1].setBackground(new java.awt.Color(255, 248, 220));
+                board[2][1].setBackground(new java.awt.Color(255, 248, 220));
+            } else {
+                System.exit(0);
+            }
         }
 
         else if(board[0][2].getText().equals(currentPlayer) && board[1][2].getText().equals(currentPlayer) && board[2][2].getText().equals(currentPlayer)) {
-            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            board[0][2].setBackground(new java.awt.Color(204, 255, 204));
+            board[1][2].setBackground(new java.awt.Color(204, 255, 204));
+            board[2][2].setBackground(new java.awt.Color(204, 255, 204));
+
+            int jawab = JOptionPane.showOptionDialog(null, "Player " + currentPlayer + " has won! \nPlay again?", "Are u sure?",JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
             hasWinner = true;
+            
+
+            if (jawab == JOptionPane.YES_OPTION) {
+                JOptionPane.showMessageDialog(null, "Game restarted \n" + currentPlayer + "Turn!");
+                resetBoard();
+
+                board[0][2].setBackground(new java.awt.Color(255, 248, 220));
+                board[1][2].setBackground(new java.awt.Color(255, 248, 220));
+                board[2][2].setBackground(new java.awt.Color(255, 248, 220));
+            } else {
+                System.exit(0);
+            }
         }
 
         else if(board[0][0].getText().equals(currentPlayer) && board[0][1].getText().equals(currentPlayer) && board[0][2].getText().equals(currentPlayer)) {
-            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            board[0][0].setBackground(new java.awt.Color(204, 255, 204));
+            board[0][1].setBackground(new java.awt.Color(204, 255, 204));
+            board[0][2].setBackground(new java.awt.Color(204, 255, 204));
+
+            int jawab = JOptionPane.showOptionDialog(null, "Player " + currentPlayer + " has won! \nPlay again?", "Are u sure?",JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
             hasWinner = true;
+            
+
+            if (jawab == JOptionPane.YES_OPTION) {
+                JOptionPane.showMessageDialog(null, "Game restarted \n" + currentPlayer + "Turn!");
+                resetBoard();
+
+                board[0][0].setBackground(new java.awt.Color(255, 248, 220));
+                board[0][1].setBackground(new java.awt.Color(255, 248, 220));
+                board[0][2].setBackground(new java.awt.Color(255, 248, 220));
+            } else {
+                System.exit(0);
+            }
         }
 
         else if(board[1][0].getText().equals(currentPlayer) && board[1][1].getText().equals(currentPlayer) && board[1][2].getText().equals(currentPlayer)) {
-            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            board[1][0].setBackground(new java.awt.Color(204, 255, 204));
+            board[1][1].setBackground(new java.awt.Color(204, 255, 204));
+            board[1][2].setBackground(new java.awt.Color(204, 255, 204));
+
+            int jawab = JOptionPane.showOptionDialog(null, "Player " + currentPlayer + " has won! \nPlay again?", "Are u sure?",JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
             hasWinner = true;
+
+            if (jawab == JOptionPane.YES_OPTION) {
+                JOptionPane.showMessageDialog(null, "Game restarted \n" + currentPlayer + "Turn!");
+                resetBoard();
+
+                board[1][0].setBackground(new java.awt.Color(255, 248, 220));
+                board[1][1].setBackground(new java.awt.Color(255, 248, 220));
+                board[1][2].setBackground(new java.awt.Color(255, 248, 220));
+            } else {
+                System.exit(0);
+            }
         }
 
         else if(board[2][0].getText().equals(currentPlayer) && board[2][1].getText().equals(currentPlayer) && board[2][2].getText().equals(currentPlayer)) {
-            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            board[2][0].setBackground(new java.awt.Color(204, 255, 204));
+            board[2][1].setBackground(new java.awt.Color(204, 255, 204));
+            board[2][2].setBackground(new java.awt.Color(204, 255, 204));
+
+            int jawab = JOptionPane.showOptionDialog(null, "Player " + currentPlayer + " has won! \nPlay again?", "Are u sure?",JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
             hasWinner = true;
+
+            if (jawab == JOptionPane.YES_OPTION) {
+                JOptionPane.showMessageDialog(null, "Game restarted \n" + currentPlayer + "Turn!");
+                resetBoard();
+
+                board[2][0].setBackground(new java.awt.Color(255, 248, 220));
+                board[2][1].setBackground(new java.awt.Color(255, 248, 220));
+                board[2][2].setBackground(new java.awt.Color(255, 248, 220));
+            } else {
+                System.exit(0);
+            }
         }
 
         else if(board[0][0].getText().equals(currentPlayer) && board[1][1].getText().equals(currentPlayer) && board[2][2].getText().equals(currentPlayer)) {
-            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            board[0][0].setBackground(new java.awt.Color(204, 255, 204));
+            board[1][1].setBackground(new java.awt.Color(204, 255, 204));
+            board[2][2].setBackground(new java.awt.Color(204, 255, 204));
+
+            int jawab = JOptionPane.showOptionDialog(null, "Player " + currentPlayer + " has won! \nPlay again?", "Are u sure?",JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
             hasWinner = true;
+
+            if (jawab == JOptionPane.YES_OPTION) {
+                JOptionPane.showMessageDialog(null, "Game restarted \n" + currentPlayer + "Turn!");
+                resetBoard();
+
+                board[0][0].setBackground(new java.awt.Color(255, 248, 220));
+                board[1][1].setBackground(new java.awt.Color(255, 248, 220));
+                board[2][2].setBackground(new java.awt.Color(255, 248, 220));
+            } else {
+                System.exit(0);
+            }
         }
 
         else if(board[0][2].getText().equals(currentPlayer) && board[1][1].getText().equals(currentPlayer) && board[2][0].getText().equals(currentPlayer)) {
-            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
+            board[0][2].setBackground(new java.awt.Color(204, 255, 204));
+            board[1][1].setBackground(new java.awt.Color(204, 255, 204));
+            board[2][0].setBackground(new java.awt.Color(204, 255, 204));
+            
+            int jawab = JOptionPane.showOptionDialog(null, "Player " + currentPlayer + " has won! \nPlay again?", "Are u sure?",JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
             hasWinner = true;
+
+            
+            if (jawab == JOptionPane.YES_OPTION) {
+                JOptionPane.showMessageDialog(null, "Game restarted \n" + currentPlayer + "Turn!");
+                resetBoard();
+
+                board[0][2].setBackground(new java.awt.Color(255, 248, 220));
+                board[1][1].setBackground(new java.awt.Color(255, 248, 220));
+                board[2][0].setBackground(new java.awt.Color(255, 248, 220));
+            } else {
+                System.exit(0);
+            }
         }
 
-        else if(board[0][0].getText().equals(currentPlayer) && board[1][1].getText().equals(currentPlayer) && board[2][0].getText().equals(currentPlayer)) {
-            JOptionPane.showMessageDialog(null, "Player " + currentPlayer + " has won");
-            hasWinner = true;
+        else if (!board[0][0].getText().isBlank() && !board[0][1].getText().isBlank() && !board[0][2].getText().isBlank() && !board[1][0].getText().isBlank() && !board[1][1].getText().isBlank() && !board[1][2].getText().isBlank() && !board[2][0].getText().isBlank() && !board[2][1].getText().isBlank() && !board[2][2].getText().isBlank() && hasWinner == false) {
+            int jawab = JOptionPane.showOptionDialog(null, "Draw! \nPlay again?", "Are u sure?",JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
+            hasWinner = false;
+            
+            if (jawab == JOptionPane.YES_OPTION) {
+                JOptionPane.showMessageDialog(null, "Game restarted \n" + currentPlayer + "Turn!");
+                resetBoard();
+            } else {
+                System.exit(0);
+            }
         }
+
     }
 }

@@ -27,7 +27,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'oopfinalkelompokb.TicTacToeApp'
+    mainClass = 'oopfinalkelompokb.Main'
 }
 
 javafx {
