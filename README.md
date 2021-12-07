@@ -49,7 +49,7 @@ UML image here
 
 ## Notable Assumption and Design App Details
 
-<ul> Untuk mengisi kotak hanya dapat menggunakan mouse saja, tetapi untuk pop up box (JOption Pane) dapat menggunakan enter </ul>
-<ul> Jika sudah terbentuk 1 garis dengan huruf yang sama, baik x maupun o, maka background grid garis tersebut akan berubah warna menjadi hijau </ul>
-<ul> Terdapat tombol New Game dan Quit pada menu bar yang memungkinkan pemain untuk mengulang di tengah-tengah permainan </ul>
-<ul> Setelah permainan berakhir, pemain dapat memilih untuk mengulang permainan atau keluar dari permainan </ul>
+- Untuk mengisi kotak hanya dapat menggunakan mouse saja, tetapi untuk pop up box (JOption Pane) dapat menggunakan enter 
+- Jika sudah terbentuk 1 garis dengan huruf yang sama, baik x maupun o, maka background grid garis tersebut akan berubah warna menjadi hijau 
+- Terdapat tombol New Game dan Quit pada menu bar yang memungkinkan pemain untuk mengulang di tengah-tengah permainan 
+- Setelah permainan berakhir, pemain dapat memilih untuk mengulang permainan atau keluar dari permainan 
